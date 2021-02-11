@@ -6,13 +6,23 @@ namespace StatementsTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
-            var aNbr = Console.ReadLine();
-            var Nbr = Convert.ToInt32(aNbr);
-                if(Nbr % 2 ==0)
-            { Console.WriteLine($"{aNbr} is even!"); }
-                else
-            { Console.WriteLine($"{aNbr} is odd :("); }
+            //// more if...else practice
+            //Console.WriteLine("Enter a number:");
+            //var aNbr = Console.ReadLine();
+            //var Nbr = Convert.ToInt32(aNbr);
+            //    if(Nbr % 2 ==0)
+            //{ Console.WriteLine($"{aNbr} is even!"); }
+            //    else
+            //{ Console.WriteLine($"{aNbr} is odd :("); }
+
+            // for() example
+            var ints = new[] { 77,32,94,46,28 };
+            for (var idx = 0; idx < 5; idx++)
+            {
+                Console.WriteLine($" idx: {idx} | ints[idx]: {ints[idx]}");
+                //idx = index #, ints[idx] = value in index#
+            }
+
 
 
 
